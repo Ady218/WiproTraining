@@ -1,0 +1,8 @@
+#calculations
+
+
+a=int(input('Enter a number'))
+b=int(input('Enter another number number'))
+c=a+b
+print(c)
+

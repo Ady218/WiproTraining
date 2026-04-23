@@ -37,7 +37,10 @@ for _ in range(1, num+1):
     print('*', sep=' ', end='\t')
 '''
 
-#another pattern()
+#another pattern(*$$$$&----*$$$$&----*$$$$&----*$$$$&----*$$$$&----)
 
+num = int(input('enter a number: '))
 
+for _ in range(1, num+1):
+    print('*', '&', sep='$$$$', end='----')
 

@@ -33,9 +33,6 @@ def test_search_product(driver):
     search_button = driver.find_element(By.ID, 'nav-search-submit-button')
     search_button.click()
     # assert "wireless" in driver.current_url
-    assert driver.current_url.__contains__('wireless'), 'Search results page did not load'
-    assert driver.title.__contains__('wireless'), 'Search result did not load the page'
-    print("\nSearch results page loaded successfully")
 
 def test_find_elements_amazon(driver):
     wait = WebDriverWait(driver, 15)

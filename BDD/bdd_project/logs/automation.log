@@ -33,3 +33,38 @@
 2026-05-08 18:26:17,243 - INFO - SCENARIO PASSED : Successful Signup
 2026-05-08 18:26:19,853 - INFO - Browser Closed Successfully
 2026-05-08 18:26:19,853 - INFO - ========================================
+2026-05-11 00:04:06,504 - INFO - Timeout fetched : 10
+2026-05-11 00:04:06,561 - INFO - ========================================
+2026-05-11 00:04:06,561 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-11 00:04:06,562 - INFO - Browser fetched : edge
+2026-05-11 00:04:06,562 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-11 00:04:06,562 - INFO - Implicit wait fetched : 5
+2026-05-11 00:04:06,562 - INFO - Headless mode : False
+2026-05-11 00:04:06,562 - INFO - Launching Edge Browser
+2026-05-11 00:04:13,748 - INFO - Browser Opened & Maximized Successfully
+2026-05-11 00:04:13,757 - INFO - Demoblaze URL loaded
+2026-05-11 00:04:13,763 - INFO - Step: Click Signup menu
+2026-05-11 00:04:13,763 - INFO - Clicking Signup Menu
+2026-05-11 00:04:13,763 - INFO - Waiting for element clickable : ('link text', 'Sign up')
+2026-05-11 00:04:14,049 - INFO - Element clickable successfully : ('link text', 'Sign up')
+2026-05-11 00:04:14,171 - INFO - Step: Enter Username: ArpitDas218
+2026-05-11 00:04:14,171 - INFO - Entering Username : ArpitDas218
+2026-05-11 00:04:14,171 - INFO - Waiting for element visibility : ('id', 'sign-username')
+2026-05-11 00:04:14,728 - INFO - Element visible successfully : ('id', 'sign-username')
+2026-05-11 00:04:14,908 - INFO - Step: Enter Password: Abc@123
+2026-05-11 00:04:14,908 - INFO - Entering Password
+2026-05-11 00:04:14,908 - INFO - Waiting for element visibility : ('id', 'sign-password')
+2026-05-11 00:04:14,928 - INFO - Element visible successfully : ('id', 'sign-password')
+2026-05-11 00:04:15,056 - INFO - Step: Click Signup Button
+2026-05-11 00:04:15,056 - INFO - Clicking Signup Button
+2026-05-11 00:04:15,056 - INFO - Waiting for element clickable : ('xpath', "//button[text()='Sign up']")
+2026-05-11 00:04:15,105 - INFO - Element clickable successfully : ('xpath', "//button[text()='Sign up']")
+2026-05-11 00:04:15,169 - INFO - Step : Verify Successful Sign Up Message
+2026-05-11 00:04:15,169 - INFO - Verifying SignUp Alert
+2026-05-11 00:04:15,169 - INFO - Waiting for alert
+2026-05-11 00:04:16,180 - INFO - Alert appeared successfully
+2026-05-11 00:04:16,181 - INFO - Alert Message : This user already exist.
+2026-05-11 00:04:16,770 - INFO - Scenario Status : Status.error
+2026-05-11 00:04:16,770 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-11 00:04:17,450 - INFO - Browser Closed Successfully
+2026-05-11 00:04:17,450 - INFO - ========================================
